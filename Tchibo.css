@@ -1,0 +1,39 @@
+ *{
+    padding: 0;
+    margin: 0;
+ 
+   
+}
+.navbar-nav {
+  justify-content: flex-end;
+  padding: 12px;
+
+}
+
+.welcome{
+    width: 100%;
+    height: 50px;
+    color: #C0A468;
+   
+}
+
+.container{
+   width: max-content;
+}
+
+
+.column{
+    display: flex;
+    justify-content:space-evenly ;
+
+
+}
+
+@media only screen and (max-width: 595px) {
+    .column {
+      display: contents;
+      
+    }
+  }
+
+ 
